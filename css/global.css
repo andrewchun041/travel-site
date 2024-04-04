@@ -1,8 +1,5 @@
 * {
     box-sizing: border-box;
-}
-
-body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
 }
@@ -56,11 +53,42 @@ Footer Section
 
 .footer-section {
     background-color: #FEFAF5;
+    display: flex;
+    justify-content: center;
 }
-.footer-subsection {}
-.footer-subsection__title {}
-.footer-subsection__label {}
-.footer-subsection__description {}
-.footer-subsection__time {}
-.footer-subsection__icon-set {}
-.footer-subsection__icon {}
+.footer-subsection {
+    margin: 3rem 2.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 5rem;
+}
+.footer-subsection__title {
+    color: #335576;
+    font-size: large;
+}
+.footer-subsection__label {
+    color: #DB7A4E;
+    font-size: xx-small;
+    font-weight: 400;
+    padding: 0.5rem 0;
+}
+.footer-subsection__description {
+    color: #335576;
+    font-size: small;
+}
+.footer-subsection__time {
+    display: flex;
+    justify-content: space-between;
+    width: 22.5rem;
+}
+.footer-subsection__time-segment {}
+.footer-subsection__icon-set {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 8rem;
+}
+.footer-subsection__icon {
+    height: 1.25rem;
+}
