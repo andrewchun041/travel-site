@@ -54,7 +54,9 @@ Footer Section
 --------------
 */
 
-.footer-section {}
+.footer-section {
+    background-color: #FEFAF5;
+}
 .footer-subsection {}
 .footer-subsection__title {}
 .footer-subsection__label {}
