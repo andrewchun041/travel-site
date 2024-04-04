@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1rem 5rem;
+    background-color: #FFFFFF;
+}
+.site-header__logo {
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    color: #335576;
+    margin: 0 1rem;
+}
+
+.primary-nav {}
+.primary-nav__list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.primary-nav__item {
+    padding: 1rem;
+}
+.primary-nav__link {
+    text-decoration: none;
+    color: black;
+    /* font-size: medium; */
+    /* font-weight: 400; */
+    padding-bottom: 0.5rem;
+}
+.primary-nav__link--current-page {
+    border-bottom: 3px solid coral;
+}
