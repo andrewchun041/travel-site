@@ -13,11 +13,12 @@ Header Section
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 0 5rem;
+    padding: 0 4rem;
     background-color: #FFFFFF;
 }
 .site-header__logo {
     text-decoration: none;
+    /* 1rem */
     font-size: medium;
     font-weight: bold;
     color: #335576;

@@ -1,0 +1,46 @@
+/*
+--------------
+Banner Section
+--------------
+*/
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FEFAF5;
+    padding: 3rem 5rem;
+    margin-top: 51px;
+}
+.banner__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 12.5rem;
+    color: #335576;
+}
+.banner__title {
+    /* 2rem */
+    font-size: xx-large;
+    font-weight: bolder;
+    width: 30rem;
+}
+.banner__description {
+    font-size: 0.85rem;
+    width: 32.5rem;
+}
+.banner__img {
+    width: 27.5rem;
+}
+
+.btn {
+    background-color: #DB7A4E;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
