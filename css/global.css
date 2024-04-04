@@ -45,7 +45,7 @@ Header Section
     padding-bottom: 0.5rem;
 }
 .primary-nav__link--current-page {
-    border-bottom: 3px solid coral;
+    border-bottom: 3px solid #DB7A4E;
 }
 
 /*
