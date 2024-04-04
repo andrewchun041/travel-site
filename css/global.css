@@ -7,6 +7,11 @@ body {
     margin: 0;
 }
 
+/*
+--------------
+Header Section
+--------------
+*/
 .site-header {
     display: flex;
     justify-content: space-between;
@@ -42,3 +47,18 @@ body {
 .primary-nav__link--current-page {
     border-bottom: 3px solid coral;
 }
+
+/*
+--------------
+Footer Section
+--------------
+*/
+
+.footer-section {}
+.footer-subsection {}
+.footer-subsection__title {}
+.footer-subsection__label {}
+.footer-subsection__description {}
+.footer-subsection__time {}
+.footer-subsection__icon-set {}
+.footer-subsection__icon {}
