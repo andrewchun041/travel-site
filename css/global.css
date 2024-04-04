@@ -13,7 +13,7 @@ Header Section
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 1rem 5rem;
+    padding: 0 5rem;
     background-color: #FFFFFF;
 }
 .site-header__logo {
@@ -21,7 +21,7 @@ Header Section
     font-size: medium;
     font-weight: bold;
     color: #335576;
-    margin: 0 1rem;
+    margin: 1rem 1rem;
 }
 
 .primary-nav {}
@@ -37,9 +37,8 @@ Header Section
 .primary-nav__link {
     text-decoration: none;
     color: black;
-    /* font-size: medium; */
-    /* font-weight: 400; */
-    padding-bottom: 0.5rem;
+    font-size: 0.8rem;
+    padding-bottom: 0.3rem;
 }
 .primary-nav__link--current-page {
     border-bottom: 3px solid #DB7A4E;
