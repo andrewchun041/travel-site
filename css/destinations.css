@@ -1,0 +1,19 @@
+/*
+--------------
+Travel Schedule Section
+--------------
+*/
+
+.travel-schedule {}
+.travel-schedule__title {}
+
+/*
+--------------
+Schedule Article Cards Section
+--------------
+*/
+
+.schedule-cards {}
+.day-card {}
+.day-card__title {}
+.day-card__slot {}
