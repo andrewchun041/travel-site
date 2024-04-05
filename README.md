@@ -10,6 +10,8 @@ make the website responsive
 - banner image & text
 
 # work memo
-- move 53.18px margin offset from main.css .banner class to global.css main
-- add hawaii page html layout with class names
-- add class names in css
+- change hawaii.html current page indicator to match
+- correct card titles to days
+- add style to destinations.css
+- fix card__title to day-card__title on hawaii.html
+- add day-card__time class to wrap day-card__slot class

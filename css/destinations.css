@@ -4,8 +4,16 @@ Travel Schedule Section
 --------------
 */
 
-.travel-schedule {}
-.travel-schedule__title {}
+.travel-schedule {
+    background-image: url(../assets/images/hawaii.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 4em 5rem;
+}
+.travel-schedule__title {
+    color: #FFFFFF;
+    font-size: 4rem;
+}
 
 /*
 --------------
@@ -13,7 +21,40 @@ Schedule Article Cards Section
 --------------
 */
 
-.schedule-cards {}
-.day-card {}
-.day-card__title {}
-.day-card__slot {}
+.schedule-cards {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.day-card {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 24rem;
+    width: 266.66666px;
+    padding: 1rem;
+    font-size: small;
+}
+.day-card__title {
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid #000000;
+}
+.day-card__time {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+}
+.day-card__slot {
+    background-color: #FEFAF5;
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 0.5rem 0;
+    font-size: medium;
+}
