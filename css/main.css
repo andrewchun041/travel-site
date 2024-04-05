@@ -44,3 +44,45 @@ Banner Section
     font-weight: 400;
     color: #FFFFFF;
 }
+
+/*
+--------------
+Recommendations Section
+--------------
+*/
+
+.reco-section {
+    padding: 3rem 5rem;
+}
+.reco-section__title {
+    /* margin: 1rem 0; */
+    color: #335576;
+    font-size: large;
+}
+
+.card-set {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    /* setting display:flex fixes bottom border issue,
+    caused by card being slightly bigger than image,
+    by getting rid of small gap between img and title */
+    display: flex;
+    position: relative;
+    margin: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgb(0,0,0,0.2);
+    overflow: hidden;
+    box-shadow: 0 4px 4px rgb(0,0,0,0.2);
+}
+.card__img {
+    height: 25rem;
+}
+.card__title {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    color: #FFFFFF;
+}
