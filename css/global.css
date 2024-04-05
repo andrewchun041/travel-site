@@ -4,7 +4,7 @@
     margin: 0;
 }
 main {
-    margin-top: 53.18px;
+    margin-top: 54px;
 }
 
 /*
@@ -16,10 +16,11 @@ Header Section
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 0 4rem;
+    padding: 0 5rem;
     background-color: #FFFFFF;
     position: fixed;
     width: 100%;
+    height: 54px;
     top: 0;
     z-index: 10;
 }
@@ -29,7 +30,6 @@ Header Section
     font-size: medium;
     font-weight: bold;
     color: #335576;
-    margin: 1rem 1rem;
 }
 
 .primary-nav {}
