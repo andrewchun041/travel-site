@@ -7,4 +7,4 @@ make the website responsive
 - banner image & text
 
 # work memo
-- primary nav height adjust to whole number
+- 

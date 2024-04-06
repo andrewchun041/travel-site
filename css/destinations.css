@@ -5,10 +5,18 @@ Travel Schedule Section
 */
 
 .travel-schedule {
-    background-image: url(../assets/images/hawaii.jpg);
+    padding: 4rem 5rem;
     background-size: cover;
     background-position: center;
-    padding: 4rem 5rem;
+}
+.travel-schedule--hawaii {
+    background-image: url(../assets/images/hawaii.jpg);
+}
+.travel-schedule--iceland {
+    background-image: url(../assets/images/iceland.jpg);
+}
+.travel-schedule--greece {
+    background-image: url(../assets/images/greece.jpg);
 }
 .travel-schedule__title {
     color: #FFFFFF;
